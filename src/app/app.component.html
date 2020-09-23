@@ -1,0 +1,12 @@
+<app-header></app-header>
+<main>
+  <!--  <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>
+        <app-post-list [posts]="storedPosts"></app-post-list> -->
+  <!--  <app-post-create></app-post-create>
+        <app-post-list></app-post-list> -->
+  <a mat-button color="primary" routerLink="/create">Create</a>
+  <a mat-button color="primary" routerLink="/list">List</a>
+  <router-outlet></router-outlet>
+
+  <app-list-option></app-list-option>
+</main>
